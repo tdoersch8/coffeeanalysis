@@ -1,0 +1,54 @@
+---
+title: "Coffee Report"
+author: "Tessa Doersch"
+output:
+  pdf_document:
+    fig_caption: false
+    keep_tex: true
+    latex_engine: pdflatex
+    pandoc_args: ["--wrap=none"]
+---
+
+## General Visualization
+
+Plots were created to visualize differences between key variables by species.
+
+![Country Plot](figures/country_plot.png)
+![Altitude Plot](figures/altitude_plot.png)
+![Total Score Plot](figures/total_plot.png)
+![Weight Plot](figures/weight_plot.png)
+
+## Coffee Aesthetic Distribution
+
+The following plot shows how different aesthetic coffee rankings are distributed by species.
+
+![Distribution Plot](figures/coffee_characteristics_alignment_plot.png)
+
+## Correlation Matrix
+
+Here is a correlation matrix of the coffee aesthetic variables.
+
+![Correlation Plot](figures/correlation_plot.png)
+
+## Principal Component Analysis (PCA)
+
+The following plot shows the result of performing PCA on the data.
+
+![PCA Plot](figures/pca_plot.png)
+
+## Clustering
+
+Here, I show the results of clustering the data into 2 and 3 clusters.
+
+![2 Clusters](figures/tsne_clusters_2.png)
+![3 Clusters](figures/tsne_clusters_3.png)
+
+## Logistic Regression and ROC Curve
+
+I built a logistic regression model to predict robusta or arabica species. The ROC curve is shown below.
+
+![ROC](figures/roc_curve.png)
+
+The model's AUC is reported as:
+
+```{r, child="data/auc.Rmd"}
