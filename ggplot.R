@@ -60,8 +60,8 @@ line_data <- full_join(arabica, robusta, by = "characteristic") %>%
          robusta_rank = replace_na(robusta_rank, 11))
 
 #Create figures folder, if it doesn't already exist
-if (!dir.exists("work/figures")) {
-  dir.create("work/figures")
+if (!dir.exists("figures")) {
+  dir.create("figures")
 }
 
 #Final plot
