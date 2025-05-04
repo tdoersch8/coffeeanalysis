@@ -6,14 +6,14 @@ I am using coffee quality data from the Coffee Quality Institute's (CQI) databas
 
 The code provided does the following tasks:
 
-	•	Cleans the data
-	•	Explores differences between Arabica and Robusta coffees using key characteristics via ggplot
-	•	Visualizes the distribution of aesthetic variables between species
-	•	Conducts Principal Component Analysis (PCA) for dimensionality reduction
-	•	Creates a correlation matrix for aesthetic variables to examine relationships
-	•	Performs t-SNE clustering
-	•	Builds and trains a GLM (generalized linear model) for species classification
-	•	Evaluates the model using an ROC curve
+•       Cleans the data
+•	Explores differences between Arabica and Robusta coffees using key characteristics via ggplot
+•	Visualizes the distribution of aesthetic variables between species
+•	Conducts Principal Component Analysis (PCA) for dimensionality reduction
+•	Creates a correlation matrix for aesthetic variables to examine relationships
+•	Performs t-SNE clustering
+•	Builds and trains a GLM (generalized linear model) for species classification
+•	Evaluates the model using an ROC curve
 
 ## Usage
 
@@ -46,22 +46,9 @@ http://localhost:8787
 
 Log in using the credentials set in your Dockerfile (username: rstudio, password: yourpassword).
 
-## Rendering the Report
+### 4. Rendering the report
 
-If you only want to generate the report, follow these steps:
-
-### 1. Clone the Repository (IF NOT DONE ABOVE)
-
-First, clone the GitHub repository and move into the project directory:
-
-```bash
-git clone https://github.com/tdoersch8/coffeeanalysis
-cd coffeeanalysis
-```
-
-### 2. Utilize the Makefile
-
-Using bash or your terminal in Rstudio, run the following code:
+Using your terminal in Rstudio, run the following code:
 
 ```bash
 make clean
