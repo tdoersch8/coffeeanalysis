@@ -12,7 +12,7 @@ The code provided does the following tasks:
 - Conducts Principal Component Analysis (PCA) for dimensionality reduction
 -	Creates a correlation matrix for aesthetic variables to examine relationships
 -	Performs t-SNE clustering
--	Builds and trains a GLM (generalized linear model) for species classification
+-	Builds and trains a generalized linear model (GLM) for species classification
 -	Evaluates the model using an ROC curve
 
 ## Usage
