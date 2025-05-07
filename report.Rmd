@@ -11,44 +11,53 @@ output:
 
 ## General Visualization
 
-Plots were created to visualize differences between key variables by species.
+These plots display visual comparisons of key variables across coffee species, highlighting general differences between Arabica and Robusta coffees. Country, mean altitude, total score, and weight appear to differ by species.
 
 ![Country Plot](figures/country_plot.png)
 ![Altitude Plot](figures/altitude_plot.png)
 ![Total Score Plot](figures/total_plot.png)
 ![Weight Plot](figures/weight_plot.png)
 
+\newpage
+
 ## Coffee Aesthetic Distribution
 
-The following plot shows how different aesthetic coffee rankings are distributed by species.
+This plot illustrates how aesthetic ratings are distributed differently between Arabica and Robusta species. Several features are distributed differently by species.
 
 ![Distribution Plot](figures/coffee_characteristics_alignment_plot.png)
 
+\newpage
+
 ## Correlation Matrix
 
-Here is a correlation matrix of the coffee aesthetic variables.
+Here is a correlation matrix of the coffee aesthetic variables. The matrix shows which aesthetic variables tend to vary together, revealing strong positive correlations among several features.
 
 ![Correlation Plot](figures/correlation_plot.png)
 
+\newpage
+
 ## Principal Component Analysis (PCA)
 
-The following plot shows the result of performing PCA on the data.
+The following plot shows the result of performing PCA on the data. The plot reduces the data to two principal components and indicates some visual separation between species, suggesting distinct underlying patterns.
 
 ![PCA Plot](figures/pca_plot.png)
 
+\newpage
+
 ## Clustering
 
-Here, I show the results of clustering the data into 2 and 3 clusters.
+Here, I show the results of clustering the data into 2 and 3 clusters. Clustering the data into 2 or 3 groups captures some of the differences between species, but there’s still some overlap, so the groups aren’t completely distinct. 
 
 ![2 Clusters](figures/tsne_clusters_2.png)
 ![3 Clusters](figures/tsne_clusters_3.png)
 
+\newpage
+
 ## Logistic Regression and ROC Curve
 
-I built a logistic regression model to predict robusta or arabica species. The ROC curve is shown below.
+I built a logistic regression model to predict Robusta or Arabica species. The ROC curve is shown below and indicates moderate ability to distinguish between Robusta and Arabica species.
 
 ![ROC](figures/roc_curve.png)
 
-The model's AUC is reported as:
-
+The AUC suggests the model performs reasonably well, with acceptable discriminatory power in classifying coffee species:
 ```{r, child="data/auc.Rmd"}
