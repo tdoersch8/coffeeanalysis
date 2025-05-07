@@ -1,6 +1,6 @@
 ## Data
 
-I am using coffee quality data from the Coffee Quality Institute's (CQI) database. Both Arabica and Robusta coffees were reviewed by CQI's trained reviewers. I edited web scraping code from [Fatih Boyar](https://github.com/fatih-boyar), who referenced code from [James LeDoux](https://github.com/jldbc). I used the web scraping code to retrieve all of the most recent reviews present on the [Coffee Quality Institute](https://www.coffeeinstitute.org) database. See the [codebook.xlsx](https://github.com/tdoersch8/coffeeanalysis/blob/main/codebook.csv) for a description of variables.
+I am using coffee quality data from the Coffee Quality Institute's (CQI) database. Both Arabica and Robusta coffees were reviewed by CQI's trained reviewers. I edited web scraping code from [Fatih Boyar](https://github.com/fatih-boyar), who referenced code from [James LeDoux](https://github.com/jldbc). I used the web scraping code to retrieve all of the most recent reviews present on the [Coffee Quality Institute](https://www.coffeeinstitute.org) database. See the [codebook](https://github.com/tdoersch8/coffeeanalysis/blob/main/codebook.csv) for a description of variables.
 
 ## Analysis
 
