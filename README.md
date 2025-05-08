@@ -32,7 +32,7 @@ This will clone the GitHub repository and move into the project directory.
 
 ### 2. Build the Docker Image
 
-Use the following command to run the Docker container:
+Run the following command in Docker to start the Docker container:
 
 ```bash
 ./start.sh
