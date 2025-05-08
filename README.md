@@ -21,7 +21,7 @@ You will need access to Docker. Follow these steps to use the provided code:
 
 ### 1. Clone the Repository
 
-Using your terminal in Docker, run the following code:
+Using your terminal in Docker, run the following commands:
 
 ```bash
 git clone https://github.com/tdoersch8/coffeeanalysis
@@ -32,7 +32,7 @@ This will clone the GitHub repository and move into the project directory.
 
 ### 2. Build the Docker Image
 
-Once available, use the following command to run the Docker container:
+Use the following command to run the Docker container:
 
 ```bash
 ./start.sh
